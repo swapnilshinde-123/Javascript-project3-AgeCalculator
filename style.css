@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins:ital,wght@0,100;0,200;0,400;1,100&family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('age.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    animation: fadeIn 1s; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: rgba(10, 196, 253, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    margin: 188px auto;
+    width: 300px;
+    box-shadow: 10px 10px 8px  #888888;
+
+}
+h1 {
+    color: #333333;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -9px;
+}
+
+button {
+    background-color: #ee9c04;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
